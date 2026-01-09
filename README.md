@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🐍 Snake Word Poet
 
-# Run and deploy your AI Studio app
+A fusion of classic arcade mechanics and cutting-edge generative AI. Snake Word Poet transforms your gaming skill into literary and visual art.
 
-This contains everything you need to run your app locally.
+## ✨ Key Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1IjDQmANRjuYup5yzqlX9oA_J84mZiOcA
+- **Classic Snake Gameplay, Modern UI**: Enjoy the timeless mechanics of Snake wrapped in a sleek, neon-inspired interface with smooth transitions and responsive controls.
+- **Word Collection Mechanics**: Navigate the grid to devour mystical words. Collect exactly 8 words to unlock the creative phase.
+- **AI-Powered Poem Generation**: Once your snake has feasted, our LLM (Gemini) weaves your collected vocabulary into a unique, evocative poem.
+- **Automatic Artwork Generation**: Witness your poetry come to life as the AI generates high-quality visual art based on the themes and imagery of your verse.
+- **Poem Remixing**: Not quite satisfied? Use the remix feature to refine your poem—make it darker, happier, or change its style before generating the final artwork.
+- **Responsive Design**: Play seamlessly across devices. Whether on desktop or mobile, the experience is optimized for every screen.
 
-## Run Locally
+## 🛠️ Technical Stack
 
-**Prerequisites:**  Node.js
+- **Framework**: [Next.js 15](https://nextjs.org/) for a robust, production-ready foundation.
+- **Language**: [TypeScript](https://www.typescriptlang.org/) for type-safe, maintainable code.
+- **Database**: [Prisma](https://www.prisma.io/) (ORM) for efficient data management and persistence.
+- **AI Engine**: [Google Gemini API](https://ai.google.dev/) for state-of-the-art text and image generation.
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) for a modern, utility-first design approach.
 
+## 🚀 Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1.  **Clone the repository**.
+2.  **Install dependencies**: `npm install`.
+3.  **Set up environment variables**: Add your `API_KEY` to your environment.
+4.  **Run the development server**: `npm run dev`.
+5.  **Start playing** and let the snake lead you to your next masterpiece!
