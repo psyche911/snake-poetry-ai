@@ -1,0 +1,5 @@
+{
+  "name": "Snake Word Poet",
+  "description": "A creative Snake game where you eat words to generate AI-powered poems and visual art.",
+  "requestFramePermissions": []
+}
